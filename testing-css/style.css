@@ -21,6 +21,17 @@ li {
   margin-left: 15px;
 }
 
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+}
+
 .header {
   color: #f9faf8;
   font-size: 24px;
@@ -62,8 +73,8 @@ li {
 
 .third {
   background-color: #e5e7eb;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 330px;
+  padding-right: 330px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +82,35 @@ li {
   color: #1f2937;
   font-style: italic;
   font-weight: lighter;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fourth {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 60px 100px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  gap: 100px;
+  width: 900px;
+}
+
+.action,
+.action2 {
+  color: white;
+}
+
+.action {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .footer {
